@@ -101,13 +101,22 @@ img {
     margin: 0;
   }
 
+  .row img {
+    width: 30%;
+    height: 100%;
+  }
+
+  #why .row img {
+    width: 20%;
+    height: 100%;
+  }
+
    #lezioni .row>.left,
    #lezioni .row>.right,
    #lezioni .row h1 {
     margin: auto;
     text-align: center;
     width: 100%;
-    height: 100%;
     background-color: #f1f2cd;
     padding-bottom: 20px;
   }
