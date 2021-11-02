@@ -97,6 +97,10 @@ img {
     padding: 0;
   }
 
+  h3 {
+    margin: 0;
+  }
+
    #lezioni .row>.left,
    #lezioni .row>.right,
    #lezioni .row h1 {
@@ -105,12 +109,16 @@ img {
     width: 100%;
     height: 100%;
     background-color: #f1f2cd;
+    padding-bottom: 20px;
   }
 
   #steps .row>.left,
   #steps .row>.central,
-  #steps .row>.right {
+  #steps .row>.right,
+  #steps .row h1 {
     width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
   }
 
   #why .row>.first,
